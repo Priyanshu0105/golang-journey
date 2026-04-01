@@ -16,9 +16,10 @@ func main() {
 	fmt.Println("The value of the golden ratio is", math.Phi)
 	// random number
 
-	//fmt.Println(rand.IntN(5) + 1) // generates a random number between 0 and 4, so we add 1 to get a number between 1 and 5
+	//repowind fmt.Println(rand.IntN(5) + 1) // generates a random number between 0 and 4, so we add 1 to get a number between 1 and 5
 	//random from crypto
 
 	myRandomNumber, _ := rand.Int(rand.Reader, big.NewInt(6)) //generates a random number between 0 and 5
 	fmt.Println(myRandomNumber)
+	//repowind remind me to play with big.Int and big.Float in the future
 }

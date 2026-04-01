@@ -17,7 +17,7 @@ func main() {
 	input, _ := reader.ReadString('\n')
 	fmt.Println("Thanks for rating", input)
 
-	numRating, err := strconv.ParseFloat(strings.TrimSpace(input), 64) //string to number conversion
+	numRating, err := strconv.ParseFloat(strings.TrimSpace(input), 64) //repowind string to number conversion -> strconv.ParseFloat(string, bitSize) -> bitSize can be 32 or 64
 	if err != nil {
 		fmt.Println(err)
 	} else {

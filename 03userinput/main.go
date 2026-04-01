@@ -13,7 +13,7 @@ func main() {
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter your age :")
-	// comma ok || err syntax
+	//repowind comma ok || err syntax ->input, _ := reader.ReadString('\n')
 	input, _ := reader.ReadString('\n')
 	fmt.Println("karma is a bitch", input)
 	fmt.Printf("you entered: %T", input)

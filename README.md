@@ -11,10 +11,10 @@ Each folder = one topic of practice.
 | 01 | Variables & Types | ✅ |
 | 02 | Control Flow | ✅ |
 | 03 | Input & Output | ✅ |
-| 04 | Functions | ⬜ |
-| 05 | Arrays, Slices & Maps | ⬜ |
+| 04 | Functions | ✅ |
+| 05 | Arrays, Slices & Maps | ✅ |
 | 06 | Structs & Interfaces | ⬜ |
-| 07 | Pointers | ⬜ |
+| 07 | Pointers | ✅ |
 | 08 | Error Handling | ⬜ |
 | 09 | Goroutines & Channels | ⬜ |
 | 10 | Packages & Modules | ⬜ |

@@ -13,7 +13,7 @@ Each folder = one topic of practice.
 | 03 | Input & Output | ✅ |
 | 04 | Functions | ✅ |
 | 05 | Arrays, Slices & Maps | ✅ |
-| 06 | Structs & Interfaces | ⬜ |
+| 06 | Structs & Interfaces | ✅ |
 | 07 | Pointers | ✅ |
 | 08 | Error Handling | ⬜ |
 | 09 | Goroutines & Channels | ⬜ |
@@ -26,4 +26,4 @@ Each folder = one topic of practice.
 - Run any file: `go run topic-name/main.go`
 
 ## Progress
-3 / 12 topics complete
+7 / 12 topics complete

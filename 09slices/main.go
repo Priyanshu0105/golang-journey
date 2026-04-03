@@ -29,4 +29,11 @@ func main() {
 	sort.Ints(highScores)
 	fmt.Println("Sorted High Scores:", highScores)
 	fmt.Println(sort.IntsAreSorted(highScores))
+
+	// remove a value from slice based on index
+	var fruitSlice = []string{"Apple", "Banana", "Cherry", "Date"}
+	fmt.Println("Original slice:", fruitSlice)
+	indexToRemove := 1 // index of "Banana"
+	fruitSlice = append(fruitSlice[:indexToRemove], fruitSlice[indexToRemove+1:]...)
+	fmt.Println("Slice after removal:", fruitSlice)
 }
